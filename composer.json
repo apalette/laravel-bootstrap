@@ -1,0 +1,21 @@
+{
+  "name": "codeuz/bootstrap",
+  "description": "To create a base Blade template with Bootstrap for Laravel 5.2",
+  "homepage": "https://github.com/apalette/laravel-bootstrap",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aurélie Palette",
+      "email": "aurelie.palette@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Codeuz\\Bootstrap\\": "src/"
+    }
+  }
+}
